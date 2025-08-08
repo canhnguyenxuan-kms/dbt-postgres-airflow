@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-07T02:23:27.972301","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-07T02:23:27.973265","level":"info","event":"Filling up the DagBag from /home/cnguyen/myrepos/dbt-postgres-airflow/airflow/dags/dbt-orchesstrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-07T02:23:28.190335Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-07T02:23:28.190581Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-07T02:23:28.190805Z","level":"info","event":"Current task name:wait_for_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-07T02:23:28.190905Z","level":"info","event":"Dag name:dbt_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-07T02:23:28.191218","level":"info","event":"Poking for tasks ['ingest_weather_data'] in dag data_weather_fetch_daily on 2025-08-07T02:23:23.788000+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-08-07T02:28:28.318546","level":"info","event":"Poking for tasks ['ingest_weather_data'] in dag data_weather_fetch_daily on 2025-08-07T02:23:23.788000+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-08-07T02:33:28.438578","level":"info","event":"Poking for tasks ['ingest_weather_data'] in dag data_weather_fetch_daily on 2025-08-07T02:23:23.788000+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-08-07T02:34:48.442904Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-08-07T02:34:48.451018Z","level":"error","event":"Task killed!","logger":"task"}

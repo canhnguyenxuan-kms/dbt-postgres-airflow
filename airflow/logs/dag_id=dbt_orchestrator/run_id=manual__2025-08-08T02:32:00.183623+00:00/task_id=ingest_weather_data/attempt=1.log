@@ -1,0 +1,18 @@
+{"timestamp":"2025-08-08T02:32:02.696145","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-08T02:32:02.697298","level":"info","event":"Filling up the DagBag from /home/cnguyen/myrepos/dbt-postgres-airflow/airflow/dags/dbt-orchesstrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-08T02:32:02.984803Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T02:32:02.984967Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T02:32:02.985213Z","level":"info","event":"Current task name:ingest_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T02:32:02.985349Z","level":"info","event":"Dag name:dbt_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T02:32:02.988412","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.757743","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.758279","level":"info","event":"Connecting to PostgreSQL database","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.770108","level":"info","event":"Connected to PostgreSQL database successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.770349","level":"info","event":"Creating schema and table if not exists in PostgreSQL","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.784161","level":"info","event":"Schema and table created successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.784415","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.790124","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T02:32:03.791591","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-08T02:32:03.840008Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T02:32:03.840195Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T02:32:03.840443Z","level":"info","event":"Task operator:<Task(PythonOperator): ingest_weather_data>","chan":"stdout","logger":"task"}

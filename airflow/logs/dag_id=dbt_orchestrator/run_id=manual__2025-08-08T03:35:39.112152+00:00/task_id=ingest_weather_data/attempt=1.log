@@ -1,0 +1,54 @@
+{"timestamp":"2025-08-08T03:35:41.956046","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-08T03:35:41.958534","level":"info","event":"Filling up the DagBag from /home/cnguyen/myrepos/dbt-postgres-airflow/airflow/dags/dbt-orchesstrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-08T03:35:42.115602","level":"info","event":"Connecting to PostgreSQL database","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.116821Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T03:35:42.116941Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T03:35:42.117047Z","level":"info","event":"Current task name:ingest_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T03:35:42.117122Z","level":"info","event":"Dag name:dbt_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T03:35:42.137202","level":"info","event":"Connected to PostgreSQL database successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.137482","level":"info","event":"Creating schema and table if not exists in PostgreSQL","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.156192","level":"info","event":"Schema and table created successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.157470","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.770387","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.771608","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:42.789893","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:52.796209","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:53.853672","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:53.855653","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:35:53.860254","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:03.865928","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:04.760241","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:04.760760","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:04.765570","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:14.775375","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:15.401099","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:15.401557","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:15.406495","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:25.414905","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:26.308742","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:26.309324","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:26.317069","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:36.324024","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:37.200574","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:37.201129","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:37.207099","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:47.213954","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:52.376974","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:52.377705","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:36:52.383853","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:02.394237","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:03.290340","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:03.290818","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:03.295986","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:13.306893","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:14.169154","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:14.169849","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:14.178909","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:24.186777","level":"info","event":"Fetching data from WeatherStack API","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:25.079591","level":"info","event":"API response received successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:25.080009","level":"info","event":"Inserting data into PostgreSQL table","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:25.086150","level":"info","event":"Data inserted successfully !!!","logger":"helper_function"}
+{"timestamp":"2025-08-08T03:37:35.097879","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-08T03:37:35.171855Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T03:37:35.172004Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-08T03:37:35.172368Z","level":"info","event":"Task operator:<Task(PythonOperator): ingest_weather_data>","chan":"stdout","logger":"task"}

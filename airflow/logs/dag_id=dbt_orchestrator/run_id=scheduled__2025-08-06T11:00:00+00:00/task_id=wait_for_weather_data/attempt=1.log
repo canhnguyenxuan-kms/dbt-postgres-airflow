@@ -1,0 +1,4 @@
+{"timestamp":"2025-08-06T11:07:17.406356","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-06T11:07:17.423091Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":null}},"logger":"task"}
+{"timestamp":"2025-08-06T11:07:17.407225","level":"info","event":"Filling up the DagBag from /home/cnguyen/myrepos/dbt-postgres-airflow/airflow/dags/dbt-orchesstrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-06T11:07:17.428396Z","level":"error","event":"Task killed!","logger":"task"}

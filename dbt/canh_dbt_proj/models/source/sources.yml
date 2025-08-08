@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: weather
+    description: "Source data for weather information"
+    database: dw
+    tables:
+      - name: weather_report
+        description: "Daily weather data fetched from the API"
+        columns:
+          - name: id
+            description: "Primary key for the weather report"
+          - name: city
+            description: "City for which the weather report is generated"
+          - name: temperature
+            description: "temperature in degrees Celsius"
+          - name: weather_description
+            description: "Short text Description of the weather (e.g., sunny, cloudy)"
+          - name: wind_speed
+            description: "wind speed in km/h for the day"
+          - name: time
+            description: "Reported local time of the weather report"
+          - name: inserted_date
+            description: "Timestamp when the data was inserted into the database"
+          - name: utc_offset
+            description: "UTC offset for the reported time, in hours"

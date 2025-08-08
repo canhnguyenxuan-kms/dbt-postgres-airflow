@@ -1,0 +1,9 @@
+services:
+  dw:
+    image: postgres:latest
+    ports:
+      - "5000:5432"
+    environment:
+      POSTGRES_USER: cnguyen
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: dw

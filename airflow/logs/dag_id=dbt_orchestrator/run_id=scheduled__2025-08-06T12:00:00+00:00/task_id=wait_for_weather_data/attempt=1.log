@@ -1,0 +1,9 @@
+{"timestamp":"2025-08-06T12:06:22.753172","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-06T12:06:22.754448","level":"info","event":"Filling up the DagBag from /home/cnguyen/myrepos/dbt-postgres-airflow/airflow/dags/dbt-orchesstrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-06T12:06:23.089588Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:06:23.089826Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:06:23.089894Z","level":"info","event":"Current task name:wait_for_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:06:23.089950Z","level":"info","event":"Dag name:dbt_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:06:23.049674","level":"info","event":"Poking for tasks ['ingest_weather_data'] in dag data_weather_fetch_daily on 2025-08-06T12:00:00+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2025-08-06T12:06:28.131801Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"running_elsewhere","message":"TI is already running elsewhere","current_hostname":"4N7Q2M3.kms.com.vn","current_pid":15367}},"logger":"task"}
+{"timestamp":"2025-08-06T12:06:28.143709Z","level":"error","event":"Task killed!","logger":"task"}
