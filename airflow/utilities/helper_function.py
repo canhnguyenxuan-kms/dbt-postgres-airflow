@@ -80,9 +80,9 @@ def insert_data_into_table(conn, data):
             data['location']['utc_offset']
         ))
         conn.commit()
-        logger.info("Data inserted successfully !!!")
+        logger.info(f"Fetched data for {data['location']['name']} successfully !!!")
     except psycopg2.Error as e:
-        logger.error(f"Failed to insert data: {e}", exc_info=True)
+        logger.error(f"Failed to fetched data for {data['location']['name']}: {e}", exc_info=True)
         conn.rollback()
         raise
 
