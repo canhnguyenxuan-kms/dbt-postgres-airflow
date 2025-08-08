@@ -50,7 +50,8 @@ dbt-postgres-airflow/
 
 ---
 
-## Python Utilities
+
+## Python Utilities & Testing
 
 ### `helper_function.py`
 
@@ -59,6 +60,15 @@ dbt-postgres-airflow/
 - **create_schema_table(conn)**: Creates the `weather` schema and `weather_report` table if they do not exist.
 - **insert_data_into_table(conn, data)**: Inserts weather data into the `weather_report` table.
 - **main()**: Orchestrates the fetching and loading of weather data for a list of cities.
+
+### `test_helper_function.py`
+
+- Location: `airflow/utilities/test_helper_function.py`
+- Contains unit tests for all main functions in `helper_function.py` using Python's `unittest` and `unittest.mock` libraries.
+- To run the tests:
+   ```bash
+   python -m unittest airflow/utilities/test_helper_function.py
+   ```
 
 ---
 
@@ -134,8 +144,8 @@ MIT License (or your chosen license)
 
 ---
 
+
 ## Authors
 
-- Canh Nguyen (and contributors)
+- Canh Nguyen Xuan
 
----
